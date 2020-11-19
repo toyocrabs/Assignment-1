@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+
+    padding: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: grey;
+    color: White;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    border: 2px solid #D3D3D3;
+}
+
+.header ul li{
+    margin: 10px;
+    margin-right: 20px;
+    font-size: 23px;
+    border: 2px solid #D3D3D3;
+}
+
+.title{
+    position: absolute;
+    top: 14%;
+    width: 100%;
+    height: 86%;
+    display: flex;
+    color: black;
+    font-size: 30px;
+    background: url('C9393238-A906-4B41-B278-A8D45FDE6657-13960-0000085FE6C5270F.jpg');
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 86%;
+    display: flex;
+    color: black;
+    font-size: 20px;
+    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me p{
+    width: 75%;
+    font-size: 20px;
+}
+
+.education{
+    position: absolute;
+    top: 170%;
+    width: 100%;
+    height: 86%;
+    display: flex;
+    color: black;
+    font-size: 20px;
+    background-color: grey;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills{
+    position: absolute;
+    top: 250%;
+    width: 100%;
+    height: 86%;
+    display: flex;
+    color: black;
+    font-size: 20px;
+    background-color: grey;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
