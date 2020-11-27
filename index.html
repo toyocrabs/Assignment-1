@@ -4,83 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Assignment 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Secular+One&family=Spartan:wght@600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header class='header'>
-        <h1>My Website</h1>
-        <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Education</li>
-            <li>Skills</li>
-        </ul>
+<body class="flex-container">
+
+    <header class="header">
+        <img src="images/header logo.png" alt ="logo">
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#agents">AGENTS</a></li>
+                <li><a href="#maps">MAPS</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class='title'>
-        <h2>Hello. I am Jun Keat</h2>
-    </section>
+    <div id="home" class="title">
 
-    <section class='about-me'>
-        <h1>About Me</h1>
-        <p>I am currently 17 years old and I was born in Malaysia 
-            before I moved to Singapore in 2010. 
-            I enjoy playing sports and taking photos when I go on vacations. 
-            I also enjoy watching movies and documentaries about 
-            crimes and nature.</p>
-    </section>
+        <h1>vAlorant</h1>
+        <h3>DEFY THE LIMITS</h3>
+    </div>
 
-    <section class='education'>
-        <div>
-            <h1>Education History</h1>
-            <img src="Badge-removebg-preview.png" alt="Woodgrove Primary School Logo">
-            <p>Woodgrove Primary School</p>
-            <p>year-year</p>
-        </div>
-        <div>
-            <img src="download-removebg-preview.png" alt="Riverside Secondary School Logo">
-            <p>Riverside Secondary School</p>
-            <p>year-year</p>
-        </div>
-        <div>
-            <img src="download__1_-removebg-preview.png" alt="Ngee Ann Poly Logo">
-            <p>Ngee Ann Poly</p>
-            <p>year-year</p>
-        </div>
-    </section>
+    <div id="about" class="about">
+        <img srcset="images/aboutimg2.png 960w
+        images/aboutimg1.png 600w" 
+        src ="images/aboutimg2.png" alt="Jett">
+        <h1>ABOUT VALORANT</h1>
+        <p>Valorant is a free to play tactical first person shooter game developed by Riot Games.
+            The premise of the game is set in the near future. Players get to pick from a variety
+            of agents and take part in a 5v5 battle. One team attacks while the other defends. 
+        </p>
+        <a href="https://playvalorant.com/en-sg/" target="_blank"> MORE ABOUT THE GAME</a>
+    </div>
 
-    <section class='skills'>
-        <h1>Skills</h1>
-        <div class='google-suites-skills'>
-            <h1>Google Suites</h1>
+    <div class="video-title">
+        <h1>GAMEPLAY AND TRAILER</h1>
+    </div>
+    <div class='about-video'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/e_E9W2vsRbQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gF_UGnIqIgM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="agents" class="agents">
+        <img src="images/agents.png" alt="agents">
+        <h1>AGENTS</h1>
+        <p>Every agent in Valorant is distinct. Each agent has a unique set of abilities
+            that helps players to augment their gunplay on the battlefield. Currently, there is a total
+            of 13 agents available for players to pick 
+        </p>
+        <a href="https://playvalorant.com/en-sg/agents" target="_blank">VIEW ALL AGENTS</a>
+    </div>
+
+    <div id="maps" class="maps">
+        <h1>MAPS</h1>
+        <p>Every map in Valorant has its own theme and features. Currently, there is a
+            total of 5 maps in the map pool. A map will be randomly picked for each match.
+            Players
+        </p>
+        <a href="https://playvalorant.com/en-sg/maps" target="_blank">VIEW ALL MAPS</a>
+    </div>
+
+    <footer>
+        <nav>
             <ul>
-                <li>Google Docs</li>
-                <li>Google Slides</li>
-                <li>Google Drive</li>
+                <li><a href="https://twitter.com/playvalorant" target="_blank">TWITTER</a></li>
+                <li><a href="https://www.youtube.com/PlayValorant" target="_blank">YOUTUBE</a></li>
+                <li><a href="https://www.instagram.com/playvalorantofficial/" target="_blank">INSTAGRAM</a></li>
+                <li><a href="https://discord.com/invite/valorant" target="_blank">DISCORD</a></li>
             </ul>
-        </div>
-
-        <div class='microsoft-skills'>
-            <h1>Microsoft Office</h1>
-            <ul>
-                <li>PowerPoint</li>
-                <li>Word</li>
-                <li>Excel</li>
-            </ul>
-        </div>
-
-        <div class='school-skills'>
-            <h1>Other Skills</h1>
-            <ul>
-                <li>Python</li>
-                <li>C#</li>
-            </ul>
-        </div>
-        
-    </section>
-
-    <section class='contact-me'>
-
-    </section>
+        </nav>
+    </footer>
 </body>
